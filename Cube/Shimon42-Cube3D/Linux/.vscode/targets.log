@@ -1,0 +1,784 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon Jul 25 19:35:11 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'Makefile', line 92)
+MINE = $(MAPS)Mine.cub
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = cinnamon
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+ANDROID_NDK_ROOT = /home/djoker/Android/Sdk/ndk/android-ndk-r20b
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 13)
+INCLUDES = $(INCPATH)cube3d.h $(INCPATH)my_canvas.h $(INCPATH)map.h $(INCPATH)keys.h $(INCPATH)player.h $(LIBFT)includes/libft.h $(MINILIB)mlx.h $(DEBUGPATH)debug.h $(DEBUGPATH)debug_defines.h
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/djoker/.Xauthority
+# environment
+GDMSESSION = cinnamon
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /media/djoker/data/code/42/cube3d/Cube3D-master/Linux
+# makefile
+SHELL = /bin/sh
+# environment
+JRE_HOME = /usr/lib/jvm/jdk1.8.0_202/jre
+# environment
+GDM_LANG = pt_PT
+# environment
+VTE_VERSION = 6003
+# environment
+QT5DIR = /home/djoker/Qt
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-pt","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/code
+# makefile (from 'Makefile', line 86)
+CFLAGS = -Wall -Wextra -Werror
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-cinnamon:/etc/xdg
+# environment
+QT_DIR = /home/djoker/Qt/5.15.2
+# environment
+GTK_OVERLAY_SCROLLING = 1
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FLUTTER_HOME = /home/djoker/snap/flutter/common/flutter
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 93)
+NEW = $(MAPS)new_parse.cub
+# environment
+PIP = /home/djoker/.local/bin
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MANDATORY_PATH = /usr/share/gconf/cinnamon.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/djoker/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+QT_PLUGIN_PATH = /media/djoker/STORAGE/linux/code/Qt/5.15.2/gcc_64/plugins
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /media/djoker/data/code/42/cube3d/Cube3D-master/Linux
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+ANDROID_NDK_PLATFORM = android-29
+# environment
+ANDROID_SDK = /home/djoker/Android/Sdk
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/djoker/code/cpp/BennuGD2/build/build-linux-gnu/bin:/home/djoker/Qt/5.15.2/android/bin:/home/djoker/Qt/5.15.2/android/bin:/home/djoker/Android/Sdk/tools/platform-tools:/media/djoker/code/go/bin:/usr/local/go/bin:/home/djoker/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/djoker/.local/bin:/home/djoker/code/emsdk:/home/djoker/code/emsdk/upstream/emscripten:/home/djoker/code/emsdk/node/14.18.2_64bit/bin:/home/djoker/code/emsdk/upstream/emscripten/tools:/home/djoker/Qt:/home/djoker/Qt/5.15.2/gcc_64/bin:/home/djoker/Qt/Tools/CMake/bin:/home/djoker/Qt/Tools/Ninja:/home/djoker/Qt/Tools/QtCreator/bin:/home/djoker/.buildozer/android/platform/android-ndk-r19c:/home/djoker/.buildozer/android/platform/android-sdk:/home/djoker/Android/apache-ant-1.9.15/bin:/usr/lib/jvm/jdk1.8.0_202/bin:/home/djoker/snap/flutter/common/flutter/bin:/home/djoker/.local/bin/:/home/djoker/.local/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/M515UA:@/tmp/.ICE-unix/1880,unix/M515UA:/tmp/.ICE-unix/1880
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 96)
+COL_CUBE = \033[2;32m
+# environment
+GOPATH = /media/djoker/code/go
+# environment
+EMSDK_NODE = /home/djoker/code/emsdk/node/14.15.5_64bit
+# makefile (from 'Makefile', line 6)
+MLX_PATH = $(INCPATH)MiniLib/
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = /home/djoker/Android/Sdk
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/djoker
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+INSIDE_NEMO_PYTHON = 
+# environment
+XDG_SESSION_DESKTOP = cinnamon
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+ANDROIDAPI = 27
+# makefile (from 'Makefile', line 4)
+DEBUGPATH = debug/
+# environment
+ANDROIDNDK = /home/djoker/.buildozer/android/platform/android-ndk-r19c
+# makefile (from 'Makefile', line 89)
+OBJS = ${SRCS:.c=.o}
+# environment
+PWD = /media/djoker/data/code/42/cube3d/Cube3D-master/Linux
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 2032
+# environment
+EM_CACHE = /home/djoker/code/emsdk/upstream/emscripten/cache
+# environment
+PKG_CONFIG_PATH = :/usr/local/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/djoker
+# environment
+LD_LIBRARY_PATH = /home/djoker/Qt/5.15.2/gcc_64/lib:/home/djoker/Qt/5.15.2/gcc_64/lib:/media/djoker/code/local/user/lib:/usr/local/lib:/home/djoker/code/cpp/BennuGD2/build/build-linux-gnu/bin
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/djoker/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+NDKAPI = 21
+# environment
+LOGNAME = djoker
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 7
+# environment
+ANDROIDSDK = /home/djoker/.buildozer/android/platform/android-sdk
+# environment
+MAKELEVEL := 0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 26)
+SRCS = main.c $(SRCSPATH)Canvas/line/calc_first_quad.c $(SRCSPATH)Canvas/line/calc_second_quad.c $(SRCSPATH)Canvas/line/calc_third_quad.c $(SRCSPATH)Canvas/line/calc_fourth_quad.c $(SRCSPATH)Canvas/line/draw_line.c $(SRCSPATH)Canvas/rect.c $(SRCSPATH)Canvas/pixel.c $(SRCSPATH)Canvas/circle.c $(SRCSPATH)Canvas/image.c $(SRCSPATH)Canvas/text.c $(SRCSPATH)Canvas/context.c $(SRCSPATH)Canvas/points.c $(SRCSPATH)Utils/colors.c $(SRCSPATH)Utils/fps_counter.c $(SRCSPATH)Utils/pause.c $(SRCSPATH)Checker/check.c $(SRCSPATH)Checker/flag_get.c $(SRCSPATH)Checker/flags_treat.c $(SRCSPATH)Checker/flag_get_utils.c $(SRCSPATH)Map/open_map.c $(SRCSPATH)Map/map_debug.c $(SRCSPATH)Map/init_map.c $(SRCSPATH)Map/map_utils.c $(SRCSPATH)Map/drawing/draw_fullmap.c $(SRCSPATH)Map/drawing/draw_map_debug.c $(SRCSPATH)Map/drawing/draw_map_utils.c $(SRCSPATH)Map/drawing/draw_minimap.c $(SRCSPATH)Casting/wall_detect.c $(SRCSPATH)Casting/draw_walls.c $(SRCSPATH)Casting/floor_detect.c $(SRCSPATH)Casting/draw_sky.c $(SRCSPATH)Sprites/new_sprite.c $(SRCSPATH)Sprites/sprites_debug.c $(SRCSPATH)Sprites/sprites_utils.c $(SRCSPATH)Sprites/sprites.c $(SRCSPATH)Keys/keys_debug.c $(SRCSPATH)Keys/keys_events.c $(SRCSPATH)Keys/keys_states.c $(SRCSPATH)Player/player.c $(SRCSPATH)Player/move.c $(SRCSPATH)create_bmp.c $(SRCSPATH)meditate.c $(SRCSPATH)meditate_map.c $(SRCSPATH)textures.c $(DEBUGPATH)debug.c
+# environment
+EMSCRIPTEN_SDK = /home/djoker/code/emsdk
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 10)
+LIBFT = $(INCPATH)Libft/
+# makefile (from 'Makefile', line 83)
+CC = clang
+# environment
+JAVA_HOME = /usr/lib/jvm/jdk1.8.0_202
+# environment
+XDG_SESSION_ID = c2
+# environment
+USER = djoker
+# makefile (from 'Makefile', line 98)
+COL_SHADOW = \033[2;36m
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = X-Cinnamon
+# environment
+GOROOT = /usr/local/go
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = pt_PT:
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4604429b-1.69.2-main.sock
+# makefile (from 'Makefile', line 3)
+SRCSPATH = srcs/
+# makefile (from 'Makefile', line 85)
+CFLAGSPROD = -Wall -Wextra -Werror
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 95)
+COL_TITLE = \033[2;33m
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/cinnamon.default.path
+# default
+MAKEFILES := 
+# environment
+EM_CONFIG = /home/djoker/code/emsdk/.emscripten
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 9)
+MINILIB = $(INCPATH)MiniLib/
+# environment
+ANDROID_SDK_ROOT = /home/djoker/Android/Sdk
+# environment
+LC_ALL = C
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/3bbbc3d2_2796_4190_8263_d7376a5b6d5f
+# automatic
+^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.106
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 87)
+CFLAGSSAN = -g -g3 -fsanitize=address $(CFLAGS)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'Makefile', line 5)
+INCPATH = includes/
+# makefile (from 'Makefile', line 91)
+MAPS = assets/maps/
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Makefile', line 1)
+NAME = cub3D
+# makefile (from 'Makefile', line 97)
+COL_TXT = \033[0;36m
+# default
+.RECIPEPREFIX := 
+# environment
+ 
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+EMSDK = /home/djoker/code/emsdk
+# environment
+VSCODE_PID = 25903
+# environment
+SDK_ROOT = /home/djoker/Android/Sdk
+# variable set hash-table stats:
+# Load=147/1024=14%, Rehash=0, Collisions=112/292=38%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66309, inode 73233): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+minilib:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 126):
+			@make -C $(MINILIB)
+
+srcs/Checker/flag_get.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1115624
+#  File has been updated.
+#  Successfully updated.
+
+clear:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+srcs/Canvas/text.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0548942
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Player/player.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2642395
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Map/drawing/draw_fullmap.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1578469
+#  File has been updated.
+#  Successfully updated.
+
+all: cub3D
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/circle.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0089333
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clear
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+srcs/Sprites/sprites.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2432329
+#  File has been updated.
+#  Successfully updated.
+
+srcs/textures.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.3075855
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+includes/cube3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-24 20:25:59.4203346
+#  File has been updated.
+#  Successfully updated.
+
+cub3D: main.o srcs/Canvas/line/calc_first_quad.o srcs/Canvas/line/calc_second_quad.o srcs/Canvas/line/calc_third_quad.o srcs/Canvas/line/calc_fourth_quad.o srcs/Canvas/line/draw_line.o srcs/Canvas/rect.o srcs/Canvas/pixel.o srcs/Canvas/circle.o srcs/Canvas/image.o srcs/Canvas/text.o srcs/Canvas/context.o srcs/Canvas/points.o srcs/Utils/colors.o srcs/Utils/fps_counter.o srcs/Utils/pause.o srcs/Checker/check.o srcs/Checker/flag_get.o srcs/Checker/flags_treat.o srcs/Checker/flag_get_utils.o srcs/Map/open_map.o srcs/Map/map_debug.o srcs/Map/init_map.o srcs/Map/map_utils.o srcs/Map/drawing/draw_fullmap.o srcs/Map/drawing/draw_map_debug.o srcs/Map/drawing/draw_map_utils.o srcs/Map/drawing/draw_minimap.o srcs/Casting/wall_detect.o srcs/Casting/draw_walls.o srcs/Casting/floor_detect.o srcs/Casting/draw_sky.o srcs/Sprites/new_sprite.o srcs/Sprites/sprites_debug.o srcs/Sprites/sprites_utils.o srcs/Sprites/sprites.o srcs/Keys/keys_debug.o srcs/Keys/keys_events.o srcs/Keys/keys_states.o srcs/Player/player.o srcs/Player/move.o srcs/create_bmp.o srcs/meditate.o srcs/meditate_map.o srcs/textures.o debug/debug.o includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 19:34:10.5151132
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 103):
+			make -C $(MINILIB)
+			make -C $(LIBFT)
+			mv $(MINILIB)libmlx.a .
+			mv $(LIBFT)libft.a .
+			ar rc $(NAME).a $(OBJS)
+			clang $(CFLAGS) main.c $(NAME).a libft.a  libmlx.a -lSDL2 -lX11 -lXext -Lincludes/MiniLib/ -lm -I. -o $(NAME) 
+
+srcs/meditate.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2922784
+#  File has been updated.
+#  Successfully updated.
+
+libft:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 129):
+			@make -C $(LIBFT) re
+
+debug/debug.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.3224843
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Checker/check.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1024739
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-24 20:07:03.6771259
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Casting/wall_detect.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1932836
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+includes/Libft/includes/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-08-28 17:05:41
+#  File has been updated.
+#  Successfully updated.
+
+re: fclean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+srcs/create_bmp.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2921063
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+includes/keys.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:25:03.8393589
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Map/open_map.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1300057
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Keys/keys_events.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2614482
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Checker/flags_treat.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1130443
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Map/map_utils.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1553461
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/context.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0919133
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Casting/draw_walls.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1984701
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Map/map_debug.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1469728
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Map/drawing/draw_minimap.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1934619
+#  File has been updated.
+#  Successfully updated.
+
+fclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 139):
+			@make -C $(LIBFT) fclean
+			@make -C $(MINILIB) clean
+			${RM} $(NAME).a $(NAME) libft.a libmlx.a
+
+# Not a target:
+includes/MiniLib/mlx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:09:58.1303577
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Keys/keys_debug.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2472658
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Keys/keys_states.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.264273
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+includes/player.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-08-28 17:05:41
+#  File has been updated.
+#  Successfully updated.
+
+srcs/meditate_map.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.3078053
+ 
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/line/calc_fourth_quad.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0121496
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Casting/floor_detect.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1958252
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Utils/colors.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0839659
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/line/calc_third_quad.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0118768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+srcs/Map/drawing/draw_map_utils.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.176271
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/pixel.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.036089
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/image.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0355883
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Map/drawing/draw_map_debug.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1652502
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/rect.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0114112
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Utils/pause.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0824582
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 134):
+			${RM} $(OBJS)
+			@make -C $(LIBFT) clean
+			@make -C $(MINILIB) clean
+
+srcs/Checker/flag_get_utils.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1275994
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Utils/fps_counter.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0854339
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/line/calc_second_quad.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0121095
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Casting/draw_sky.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2264889
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+debug/debug.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-08-28 17:05:41
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/points.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0648886
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Sprites/sprites_utils.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2288357
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Player/move.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2680401
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Sprites/new_sprite.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2312233
+#  File has been updated.
+#  Successfully updated.
+
+main.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0562239
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Sprites/sprites_debug.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.2308525
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+includes/my_canvas.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-24 20:26:26.5595263
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+includes/map.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-08-28 17:05:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+debug/debug_defines.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-08-28 17:05:41
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Map/init_map.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.1613532
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/line/calc_first_quad.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.035118
+#  File has been updated.
+#  Successfully updated.
+
+srcs/Canvas/line/draw_line.o: includes/cube3d.h includes/my_canvas.h includes/map.h includes/keys.h includes/player.h includes/Libft/includes/libft.h includes/MiniLib/mlx.h debug/debug.h debug/debug_defines.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 19:34:06.0089392
+#  File has been updated.
+#  Successfully updated.
+
+launch: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 111):
+			clear
+			@echo "$(COL_CUBE)  .–––––––––––––––––––––––––––––––––––––––––––––––––––––––––.	"
+			@echo " / |                     $(COL_TITLE)Launching$(COL_CUBE)                          | \	"
+			@echo "+––+––––––––––––––––––––––––––––––––––––––––––––––––––––––––+––+"
+			@echo "|  |$(COL_TXT)             _____       _       _____ ____$(COL_CUBE)             |  |"
+			@echo "|  |$(COL_TXT)            /  __ \     | |     |____ |  _  \ $(COL_CUBE)          |  |"
+			@echo "|  |$(COL_TXT)           |  /  \/_   _| |__       / / | | |$(COL_CUBE)           |  |"
+			@echo "|  |$(COL_TXT)           |  |   | | | | |_ \      \ \ | | |$(COL_CUBE)           |  |"
+			@echo "|  |$(COL_TXT)           |  \__/\ |_| | |_) | ____/ / |_/ /$(COL_CUBE)           |  |"
+			@echo "|  |____________$(COL_TXT)\_____/\____|____/  \____/|____/ $(COL_CUBE)___________|  |"
+			@echo "| / $(COL_SHADOW)           /////// /////////     \\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\$(COL_CUBE)            \ |"
+			@echo "+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––+\033[0m"
+			@./$(NAME) $(NEW)
+
+# files hash-table stats:
+# Load=68/1024=7%, Rehash=0, Collisions=5/196=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 84 / storage = 1511 B / avg = 17 B
+# current buf: size = 8162 B / used = 1511 B / count = 84 / avg = 17 B
+
+# strcache performance: lookups = 206 / hit rate = 59%
+# hash-table stats:
+# Load=84/8192=1%, Rehash=0, Collisions=1/206=0%
+# Finished Make data base on Mon Jul 25 19:35:11 2022
+
+ 

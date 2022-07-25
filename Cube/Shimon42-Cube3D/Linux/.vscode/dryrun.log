@@ -1,0 +1,56 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/media/djoker/data/code/42/cube3d/Cube3D-master/Linux'
+clang -Wall -Wextra -Werror   -c -o main.o main.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/line/calc_first_quad.o srcs/Canvas/line/calc_first_quad.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/line/calc_second_quad.o srcs/Canvas/line/calc_second_quad.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/line/calc_third_quad.o srcs/Canvas/line/calc_third_quad.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/line/calc_fourth_quad.o srcs/Canvas/line/calc_fourth_quad.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/line/draw_line.o srcs/Canvas/line/draw_line.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/rect.o srcs/Canvas/rect.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/pixel.o srcs/Canvas/pixel.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/circle.o srcs/Canvas/circle.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/image.o srcs/Canvas/image.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/text.o srcs/Canvas/text.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/context.o srcs/Canvas/context.c
+clang -Wall -Wextra -Werror   -c -o srcs/Canvas/points.o srcs/Canvas/points.c
+clang -Wall -Wextra -Werror   -c -o srcs/Utils/colors.o srcs/Utils/colors.c
+clang -Wall -Wextra -Werror   -c -o srcs/Utils/fps_counter.o srcs/Utils/fps_counter.c
+clang -Wall -Wextra -Werror   -c -o srcs/Utils/pause.o srcs/Utils/pause.c
+clang -Wall -Wextra -Werror   -c -o srcs/Checker/check.o srcs/Checker/check.c
+clang -Wall -Wextra -Werror   -c -o srcs/Checker/flag_get.o srcs/Checker/flag_get.c
+clang -Wall -Wextra -Werror   -c -o srcs/Checker/flags_treat.o srcs/Checker/flags_treat.c
+clang -Wall -Wextra -Werror   -c -o srcs/Checker/flag_get_utils.o srcs/Checker/flag_get_utils.c
+clang -Wall -Wextra -Werror   -c -o srcs/Map/open_map.o srcs/Map/open_map.c
+clang -Wall -Wextra -Werror   -c -o srcs/Map/map_debug.o srcs/Map/map_debug.c
+clang -Wall -Wextra -Werror   -c -o srcs/Map/init_map.o srcs/Map/init_map.c
+clang -Wall -Wextra -Werror   -c -o srcs/Map/map_utils.o srcs/Map/map_utils.c
+clang -Wall -Wextra -Werror   -c -o srcs/Map/drawing/draw_fullmap.o srcs/Map/drawing/draw_fullmap.c
+clang -Wall -Wextra -Werror   -c -o srcs/Map/drawing/draw_map_debug.o srcs/Map/drawing/draw_map_debug.c
+clang -Wall -Wextra -Werror   -c -o srcs/Map/drawing/draw_map_utils.o srcs/Map/drawing/draw_map_utils.c
+clang -Wall -Wextra -Werror   -c -o srcs/Map/drawing/draw_minimap.o srcs/Map/drawing/draw_minimap.c
+clang -Wall -Wextra -Werror   -c -o srcs/Casting/wall_detect.o srcs/Casting/wall_detect.c
+clang -Wall -Wextra -Werror   -c -o srcs/Casting/draw_walls.o srcs/Casting/draw_walls.c
+clang -Wall -Wextra -Werror   -c -o srcs/Casting/floor_detect.o srcs/Casting/floor_detect.c
+clang -Wall -Wextra -Werror   -c -o srcs/Casting/draw_sky.o srcs/Casting/draw_sky.c
+clang -Wall -Wextra -Werror   -c -o srcs/Sprites/new_sprite.o srcs/Sprites/new_sprite.c
+clang -Wall -Wextra -Werror   -c -o srcs/Sprites/sprites_debug.o srcs/Sprites/sprites_debug.c
+clang -Wall -Wextra -Werror   -c -o srcs/Sprites/sprites_utils.o srcs/Sprites/sprites_utils.c
+clang -Wall -Wextra -Werror   -c -o srcs/Sprites/sprites.o srcs/Sprites/sprites.c
+clang -Wall -Wextra -Werror   -c -o srcs/Keys/keys_debug.o srcs/Keys/keys_debug.c
+clang -Wall -Wextra -Werror   -c -o srcs/Keys/keys_events.o srcs/Keys/keys_events.c
+clang -Wall -Wextra -Werror   -c -o srcs/Keys/keys_states.o srcs/Keys/keys_states.c
+clang -Wall -Wextra -Werror   -c -o srcs/Player/player.o srcs/Player/player.c
+clang -Wall -Wextra -Werror   -c -o srcs/Player/move.o srcs/Player/move.c
+clang -Wall -Wextra -Werror   -c -o srcs/create_bmp.o srcs/create_bmp.c
+clang -Wall -Wextra -Werror   -c -o srcs/meditate.o srcs/meditate.c
+clang -Wall -Wextra -Werror   -c -o srcs/meditate_map.o srcs/meditate_map.c
+clang -Wall -Wextra -Werror   -c -o srcs/textures.o srcs/textures.c
+clang -Wall -Wextra -Werror   -c -o debug/debug.o debug/debug.c
+make -C includes/MiniLib/
+make -C includes/Libft/
+mv includes/MiniLib/libmlx.a .
+mv includes/Libft/libft.a .
+ar rc cub3D.a main.o srcs/Canvas/line/calc_first_quad.o srcs/Canvas/line/calc_second_quad.o srcs/Canvas/line/calc_third_quad.o srcs/Canvas/line/calc_fourth_quad.o srcs/Canvas/line/draw_line.o srcs/Canvas/rect.o srcs/Canvas/pixel.o srcs/Canvas/circle.o srcs/Canvas/image.o srcs/Canvas/text.o srcs/Canvas/context.o srcs/Canvas/points.o srcs/Utils/colors.o srcs/Utils/fps_counter.o srcs/Utils/pause.o srcs/Checker/check.o srcs/Checker/flag_get.o srcs/Checker/flags_treat.o srcs/Checker/flag_get_utils.o srcs/Map/open_map.o srcs/Map/map_debug.o srcs/Map/init_map.o srcs/Map/map_utils.o srcs/Map/drawing/draw_fullmap.o srcs/Map/drawing/draw_map_debug.o srcs/Map/drawing/draw_map_utils.o srcs/Map/drawing/draw_minimap.o srcs/Casting/wall_detect.o srcs/Casting/draw_walls.o srcs/Casting/floor_detect.o srcs/Casting/draw_sky.o srcs/Sprites/new_sprite.o srcs/Sprites/sprites_debug.o srcs/Sprites/sprites_utils.o srcs/Sprites/sprites.o srcs/Keys/keys_debug.o srcs/Keys/keys_events.o srcs/Keys/keys_states.o srcs/Player/player.o srcs/Player/move.o srcs/create_bmp.o srcs/meditate.o srcs/meditate_map.o srcs/textures.o debug/debug.o
+clang -Wall -Wextra -Werror main.c cub3D.a libft.a  libmlx.a -lSDL2 -lX11 -lXext -Lincludes/MiniLib/ -lm -I. -o cub3D 
+make: Leaving directory '/media/djoker/data/code/42/cube3d/Cube3D-master/Linux'
+ 
